@@ -1,0 +1,392 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;/* انميشن لحركة الصفحة */
+
+}
+
+header{
+    background-color: #E1ECC8;
+    width: 100%;
+    position: fixed;/* لتثبيت القائمة */
+    z-index: 5; /* طبقات */
+    display: flex;
+    justify-content: space-between;/* فصل اللوجو عن قائمة الخيارات */
+    align-items: center;
+    padding: 12px 200px;
+}
+
+.logo{
+    text-decoration: none;
+    color: #0f5509;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.0em;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #0f5509;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+
+}
+
+.navigation a:hover{
+    color: cornflowerblue;
+}
+
+
+
+section{
+    padding: 5% 10%;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(img/wallpaperflare.com_wallpaper\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+
+.main h2{
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 500;
+
+}
+
+.main h2 span{
+    color: coral;
+    font-size: 3em;
+    font-weight: 800;
+    display: inline-block;/* السبان تعليمة انلاين يجب ان تصبح انلاين بلوك لكي يطبق عليهة المارجن */
+    margin-top: 10px;
+}
+
+.main h3{
+    color: #fff;
+    font-size: 1.7em;
+    font-weight: 600;
+    letter-spacing: 7px;    
+    margin-top: 10px;
+}
+
+
+
+
+.main-btn{
+    color: #fff;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover{
+    background-color: #0a49f6;
+    transform: scale(1.1);
+    
+}
+
+.social-icons a{
+    color: #fff;
+    font-size: 1.7em;
+    padding-right: 30px;
+
+
+}
+
+
+
+/*__________________ cards _______________*/
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: #3a6cf4;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+
+.card{
+    background-color: #fff;
+    width: 22.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 30%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 30px;
+    transition: 0.7s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+
+.icon{
+    font-size: 9em;
+    text-align: center;
+    color:#3a6cf4;
+    rotate: 35deg;
+}
+
+
+.info h3{
+    text-align: center;
+    color:#3a6cf4;
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin: 10px;
+}
+
+.info p{
+    text-align: center;
+}
+
+
+.btn-2{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn-2 a{
+    margin-top: 35px;
+    color: #fff;
+    background-color: #3a6cf4;
+    font-size: 1.6em;
+    padding: 0.7375em 2.0875em;
+    width: 150px;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: 0.7s ease;
+    text-align: center;
+
+}
+
+
+.btn-2 a:hover{
+    transform: scale(1.1);
+    background-color:#0a49f6;
+
+}
+
+
+.aodeo{
+    text-align: center;    
+}
+
+
+.fgf{
+    background-color: yellowgreen;
+    color: yellowgreen;
+    padding: 15px;
+    border-radius: 40px;
+}
+
+
+
+/* ______________________________________________________________ */
+
+
+
+
+
+
+.project {
+    background-color: #000016;
+}
+
+
+.project .content{
+    margin-top: 30px;  
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;  
+}
+
+.project-card{
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 15em;
+    width:25em;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.project-card:hover{
+    transform: scale(1.1);
+}
+
+
+.project-card:hover .project-imge{
+    opacity: 0.9;
+   
+}
+
+
+.project-imge img{
+    width: 100%;
+}
+
+
+
+.project-info{
+    padding: 1.5em;
+}
+
+.project-category{
+    font-size: 0.8em;
+    color: #000;
+}
+
+
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+
+.more-details{
+    text-decoration: none;
+    color: #3a6cf4;
+}
+
+
+
+
+.more-details:hover{
+    color: #601cfc;
+}
+
+
+
+
+/* _____________________________________________________________________ */
+
+
+
+
+
+.icon-2{
+    font-size: 9em;
+    text-align: center;
+    color:#3a6cf4;
+}
+
+.card h1{
+    font-size: 2.5em;
+    font-weight: 800;
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+/* _________________________________________________________________________ */  
+
+footer{
+    background-color: #000016;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.footer{
+    font-size: 22px;
+    font-weight: 700;
+    padding: 40px;
+    text-transform: uppercase;
+}
+footer a{
+    color: #fff;
+    font-size: 1.7em;
+    padding: 7px;
+}
+
+
+.uu{
+    color:cornflowerblue;
+}
+
+
+
+/* _________________________________ responsive _____________________ */
+
+
+
+
+@media (max-width:1023px){
+    header{
+        padding:12px 15px;
+    } 
+
+    .navigation A{
+        padding-left: 10px;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    section{
+        padding: 80px 10px;
+    }
+
+    .main h2{
+        font-size: 1em;
+    }
+
+    .main h3{
+        font-size: 1.6em;
+    }
+
+
+   /* .content{
+        flex-direction: column;
+        align-items: center;
+        
+    }*/   
+}
